@@ -1,5 +1,6 @@
 <?php 
 
-include "Login.html"
+include_once "Login.php";
+
 
 ?>

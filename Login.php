@@ -22,7 +22,7 @@
                 <h2 class="fw-bold py-5 text-center">Bienvenido</h2>
 
                 <!-- Login -->
-                <form action="#">
+                <form action="page2.php">
                     <div class="mb-4">
                         <label for="email" class="form-label">Correo electronico</label>
                         <input type="email" class="form-control" name="email">
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="d-grid">
-                        <button type="submit" class="btn mb-5">Iniciar seccion</button>
+                        <button type="submit" class="btn mb-5" >Iniciar seccion</button>
                     </div>
 
                 </form>
