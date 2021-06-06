@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Admministrador</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <div>
+                <label for="Primer nombre">Primer nombre:</label>
+                <input type="text" name="pnombre">
+                <label>Segundo nombre:</label>
+                <input type="text" name="snombre">
+                <label>Primer apellido:</label>
+                <input type="text" name="papellido">
+                <label>Segundo apellido:</label>
+                <input type="text" name="sapellido">
+            </div>
+            <div>
+                <label>Sexo</label>
+                <br>
+                <label for="masculino">Masculino</label>
+                <input id="masculino" type="radio" name="sexo" value="masculino">
+                <br>
+                <label for="femenino">Femenino</label>
+                <input id="femenino" type="radio" name="sexo" value="femenino">
+                <br>
+                <label for="indefinido">Indefinido</label>
+                <input id="indefinido" type="radio" name="sexo" value="indefinido">
+            </div>
+            <div>
+                <label>Teléfono</label>
+                <input type="tel" name="telefono">
+            </div>
+            <div>
+                <label>Emeil</label>
+                <input type="email" name="email">
+            </div>
+            <input type="submit" value="Agregar">
+            <input type="reset" value="Resetear">
+        </div>
+        
+    </form>
+    <a href="Login.php"><input type="button" value="Agregar"></a>
+    <button>Agregar</button>
+    <button>Eliminar</button>
+</body>
+</html>
