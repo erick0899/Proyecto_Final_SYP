@@ -89,7 +89,8 @@
 
                 <div class="col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6 lines">
                     <a style="cursor: pointer;"><img style="max-width: 648px width: 350px; height: 400px;"
-                            src="img/LogoCFC.jpg"></a>
+                            src="img/LogoCFC.jpg">
+                    </a>
 
                     <div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade one" role="dialog"
                         tabindex="-1">
