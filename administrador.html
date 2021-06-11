@@ -6,47 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Admministrador</title>
+    <link rel="stylesheet" href="administrador.css">
 </head>
 <body>
     <form action="">
-        <div>
-            <div>
-                <label for="Primer nombre">Primer nombre:</label>
-                <input type="text" name="pnombre">
-                <label>Segundo nombre:</label>
-                <input type="text" name="snombre">
-                <label>Primer apellido:</label>
-                <input type="text" name="papellido">
-                <label>Segundo apellido:</label>
-                <input type="text" name="sapellido">
+        <h1>Bienvenido administrador:</h1>
+        <div class="formulario">
+            <div class="datos1">
+                <div >
+                    <label for="Pnombre">Primer nombre:</label>
+                    <br>
+                    <input id="Pnombre" maxlength="12" type="text" name="pnombre" required pattern="[a-zA-Z]+">
+                    <br>
+                    <label for="Snombre">Segundo nombre:</label>
+                    <br>
+                    <input id="Snombre" maxlength="12" type="text" name="snombre" required pattern="[a-zA-Z]+">
+                </div>
+                <div>
+                    <label for="Papellido">Primer apellido:</label>
+                    <br>
+                    <input id="Papellido" maxlength="12" type="text" name="papellido" required pattern="[a-zA-Z]+">
+                    <br>
+                    <label for="Sapellido">Segundo apellido:</label>
+                    <br>
+                    <input id="Sapellido" maxlength="12" type="text" name="sapellido" required pattern="[a-zA-Z]+">
+                </div>
+                <div class="datos2">
+                    <label>Sexo:</label>
+                    <br>
+                    <label for="masculino">Masculino</label>
+                    <input id="masculino" type="radio" name="sexo" value="masculino">
+                    <br>
+                    <label for="femenino">Femenino</label>
+                    <input id="femenino" type="radio" name="sexo" value="femenino">
+                    <br>
+                    <label for="indefinido">Indefinido</label>
+                    <input id="indefinido" type="radio" name="sexo" value="indefinido">
+                </div>
+                <div class="datos3">
+                    <div class="datos4">
+                        <label for="telefono">Teléfono: </label>
+                        <br>
+                        <input id="telefono" type="tel" maxlength="8" minlength="8" name="telefono"  required pattern="[0-9]+">
+                        <br>
+                        <label for="emeil">Emeil: </label>
+                        <br>
+                        <input id="emeil" type="email" name="email">
+                    </div>
+                    <div class="datos5">
+                        <h5>Direrción:</h5>
+                        <div class="direccion">
+                            <div>
+                                <label for="departamento">Departamento:</label>
+                                <br>
+                                <input id="departamento" type="text" name="departamento" required pattern="[a-zA-Z]+">
+                            </div>
+                           <div>
+                                <label for="municipio">Municipio:</label>
+                                <br>
+                                <input id="municipio" type="text" name="municipio" required pattern="[a-zA-Z]+">
+                           </div>
+                            <div>
+                                <label for="boc">Barrio o colonia:</label>
+                                <br>
+                                <input id="boc" type="text" name="barrio" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            <div>
-                <label>Sexo</label>
-                <br>
-                <label for="masculino">Masculino</label>
-                <input id="masculino" type="radio" name="sexo" value="masculino">
-                <br>
-                <label for="femenino">Femenino</label>
-                <input id="femenino" type="radio" name="sexo" value="femenino">
-                <br>
-                <label for="indefinido">Indefinido</label>
-                <input id="indefinido" type="radio" name="sexo" value="indefinido">
+            
+            <div class="datos6">
+                <div>
+                    <label for="dui">DUI:</label>
+                    <br>
+                    <input id="dui" type="text" name="dui" maxlength="9" minlength="9" required pattern="[0-9]+">
+                </div>
+                <div>
+                    <label for="edad">Edad:</label>
+                    <br>
+                    <input id="edad" type="text" name="edad" maxlength="3" minlength="2" required pattern="[0-9]+">
+                </div>
+                <div>
+                    <label for="fr">Fecha de registro:</label>
+                    <br>
+                    <input id="fr" type="datetime-local" name="fecha">
+                </div>
+                <div>
+                    <label for="usuario">Usuario:</label>
+                    <br>
+                    <input id="usuario" type="text" name="usuario">
+                </div>
+                <div>
+                    <label for="fn">Fecha de nacimiento:</label>
+                    <br>
+                    <input id="fn" type="datetime-local" name="fecha">
+                </div>
+                <div>
+                    <label for="cuenta">Numero de cuenta:</label>
+                    <br>
+                    <input id="cuenta" type="text" name="cuenta">
+                </div>
+                
             </div>
-            <div>
-                <label>Teléfono</label>
-                <input type="tel" name="telefono">
+            <br>
+            <input id="agregar" type="submit" value="Agregar">
+            <input id="resetear" type="reset" value="Resetear">
+            <br>
+            <br>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th rowspan="2">#</th>
+                        <th rowspan="2">Nombres</th>
+                        <th rowspan="2">Apellidos</th>
+                        <th rowspan="2">Sexo</th>
+                        <th rowspan="2">Telefono</th>
+                        <th rowspan="2">Emeil</th>
+                        <th id="direccion" colspan="3">Direccion</th>
+                        <th rowspan="2">DUI</th>
+                        <th rowspan="2">Edad</th>
+                        <th rowspan="2">Usuario</th>
+                        <th rowspan="2">Fecha de inscripcion</th> 
+                        <th rowspan="2">Fecha de nacimiento</th>
+
+                    </tr>
+                    <tr>
+                        <th>Departamento</th>
+                        <th>Municipio</th>
+                        <th>Barrio o Colonia</th>
+                    </tr>
+                </table>
             </div>
-            <div>
-                <label>Emeil</label>
-                <input type="email" name="email">
-            </div>
-            <input type="submit" value="Agregar">
-            <input type="reset" value="Resetear">
+            
         </div>
         
     </form>
-    <a href="Login.php"><input type="button" value="Agregar"></a>
-    <button>Agregar</button>
-    <button>Eliminar</button>
+    
 </body>
 </html>

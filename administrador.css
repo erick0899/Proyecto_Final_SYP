@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgba(0, 67, 252, 0.658);
+}
+div
+{
+    margin: 5px;
+}
+.formulario
+{
+    
+    width: auto;
+    height: auto;
+   margin: 10px;
+}
+.datos1
+{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: flex;
+}
+.datos2
+{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.datos3
+{
+    display: flex;
+    margin: 10px;
+}
+
+.direccion
+{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: flex;
+}
+.datos5
+{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.datos6
+{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    
+}
+#direccion
+{
+    text-align: center;
+}
+table
+{
+    width: 100%;
+}
+tr ,th
+{
+    background-color: rgb(142, 142, 245);
+    border: 3px solid blue;
+}
+#agregar , #resetear
+{
+    background: rgb(9, 243, 9);
+    color: #1e376e;
+    border: 0;
+    border-radius: 50px;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+
+}
+input
+{
+    border-color: rgba(17, 0, 255, 0.801);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(25, 0, 255, 0.6);
+    outline: 0 none;
+}
