@@ -1,0 +1,17 @@
+body{
+    background: #0A0834;
+    
+}
+.LogoTech{
+    width: 68px; 
+}
+.ibg{
+    background-image: url(img/LogoCFC.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    background-color: #0A0834;
+    color: white;
+}
