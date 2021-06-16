@@ -4,8 +4,8 @@ body
     margin: 0%;
     border: 0%;
     background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     
 }
@@ -19,29 +19,57 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     justify-content: space-around;  
     
 }
-.deposito ,.retiro
+.deposito ,.retiro ,.estadodecuenta
 {
-    width: 400px;
+    
+    padding: 15px;
+    color: #2940D3;
+    width: 300px;
     height: auto;
     margin: 15px;
     float: left;
     margin: 10px;
+    margin-top: 25px;
     justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+    /*
+    background: #0b03e9;  
+    background: -webkit-linear-gradient(to right, #1CB5E0, #0b03e9);  
+    background: linear-gradient(to right, #1CB5E0, #0b03e9); 
+    */
+}
+h2
+{
+    margin: 0%;
+}
+.img1
+{
+    display: flex;
+    justify-content: center;
+}
+h1 
+{
+    margin: 0%;
     
-    
-   background: #04009A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #04009A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #04009A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+}
+p
+{
+    margin: 0%;
+    font-size: 20px;
 }
 .header
-{  
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,#1CB5E0 , #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+{
+    padding: 10px;
+    
+    
+    background: #000046;  
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+    background: linear-gradient(to right, #1CB5E0, #020285); 
 }
 input
 {
+    
     background: #C0FEFC;
     color: #1e376e;
     border: 0;
@@ -52,8 +80,20 @@ input
     padding-left: 30px;
     padding-right: 30px;
     margin: 5px;
+    padding: 5px;
+    width: 250px;
     
 }
-
+.btndyr
+{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+p
+{
+    padding: 5px;
+}
 
 

@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retirar</title>
+    <link rel="stylesheet" href="retirar.css">
 </head>
 <body>
-    <h1>Retirar</h1>
+    <form action="">
+        <div id="conteiner">
+            <div class="formularioretirar">
+                <div>
+                    <h1>Retirar </h1>
+                    <h2>Saldo de la cuenta:</h2>
+                </div>
+                
+                <div>
+                    <label for="cuenta">Numero de cuenta:</label>
+                    <br>
+                    <input id="cuenta" type="text" name="cuenta" title="recuerda que el numeor de cuenta es de 12 digitos" maxlength="12" minlength="12" placeholder="Numero de cuenta" required pattern="[0-9]+">
+                    <br>
+                    <label for="retiro">Cuanto desea retirar:</label>
+                    <br>
+                    <input id="retiro" type="text" name="retiro"  maxlength="5" minlength="1" placeholder="cantidad a retirar" required pattern="[0-9]+" >
+                    <br>
+                    <p>Su retiro se realiza inmediatamente de esta cuenta</p>
+                </div>
+                <br>
+                <input id="realizarretiro" type="submit" value="Realizar retiro" onclick="">
+                <a href="usuario.html">Regresar a la paguina anterior</a>
+            </div>   
+        </div>
+    </form>
 </body>
 </html>

@@ -10,28 +10,53 @@
 <body>
     <div class="header">
         <h1>Bienvenid@ a el area de deposito y retiro de dinero.</h1>
-        <h3>Que desea realizar el dia de ahora</h3>
+        <p>
+            Que desea realizar el dia de ahora puede elegir entre realizar un deposito, 
+            realizar un retiro o simplemente chekear su estado de cuenta en el apartado 
+            de informacion de la cuenta.
+    
+        </p>
     </div>
     <form action="">
         <div id="usuario">
            
             <div class="deposito">
                 <h2>Depositar dinero:</h2>
-                <img src="img_usuario/img_deposito.jpg" alt="" width="400px" height="300px">
+                <div class="img1">
+                    <img src="img_usuario/img_deposito.jpg" alt="" width="250px" height="250px">
+                </div>
                 <p>para realizar un deposito de forma facil y raída has click en el siguiente boton</p>
-                <a href="depositar.html"><input type="button" name="Depositar" value="Depositar"></a>
-                
+                <div class="btndyr">
+                    <a href="depositar.html"><input type="button" name="Depositar" value="Depositar"></a>
+                </div>
+            </div>
+            <div class="estadodecuenta">
+                <h2>Estado de cuenta:</h2>
+                <div class="img1">
+                    <img src="img_usuario/img_estado.jpg" alt="" width="250px" height="250px">
+                </div>
+                <p>
+                    Puedes ver el movimiento que has echo en tu cuenta bancaria en el momento y lugar que 
+                    desees siempre y cuando estes con nosotros
+                </p>
+                <div class="btndyr">
+                    <a href="estado.html"><input type="button" name="estado" value="Estado de cuenta" > </a>
+                </div> 
             </div>
             <div class="retiro">
                 <h2>Retirar dinero:</h2>
-                <img src="img_usuario/img_retiro.jpg" alt="" width="400px" height="300px">
+                <div class="img1">
+                    <img src="img_usuario/img_retiro.jpg" alt="" width="250px" height="250px">
+                </div>
                 <p>
                     Para poder hacer un retiro de dinero con summa facilidad y rapides por favor hacer click en 
                     el siguiente boton
                 </p>
-                <a href="retirar.html"><input type="button" name="Depositar" value="Retirar" > </a>
-                
+                <div class="btndyr">
+                    <a href="retirar.html"><input type="button" name="Depositar" value="Retirar" > </a>
+                </div> 
             </div>
+            
         </div>
     </form>
 </body>
