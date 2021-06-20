@@ -1,0 +1,94 @@
+body
+{
+    
+    margin: 0%;
+    border: 0%;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+#usuario
+{
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;  
+    
+}
+.deposito ,.retiro ,.estadodecuenta
+{
+    
+    padding: 15px;
+    color: #2940D3;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    float: left;
+    margin: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+}
+h2
+{
+    margin: 0%;
+}
+.img1
+{
+    display: flex;
+    justify-content: center;
+}
+h1 
+{
+    margin: 0%;
+    
+}
+p
+{
+    margin: 0%;
+    font-size: 20px;
+}
+.header
+{
+    padding: 10px;
+    
+    color: white;
+    background: #000046;  
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+    background: linear-gradient(to right, #1CB5E0, #020285); 
+}
+input
+{
+    
+    background: #C0FEFC;
+    color: #1e376e;
+    border: 0;
+    border-radius: 50px;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    
+}
+.btndyr
+{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+p
+{
+    padding: 5px;
+}
+
+

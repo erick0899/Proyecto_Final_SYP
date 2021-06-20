@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depositar</title>
+    <link rel="stylesheet" href="depositar.css">
+</head>
+<body>
+    <form action="">
+        <div id="conteiner">
+            <div class="formulariodepositar">
+                <div>
+                    <h1>Depositar </h1>
+                    <h2>Saldo de la cuenta:</h2>
+                </div>
+                
+                <div>
+                    <label for="cuenta">Numero de cuenta:</label>
+                    <br>
+                    <input id="cuenta" type="text" name="cuenta" title="recuerda que el numeor de cuenta es de 12 digitos" maxlength="12" minlength="12" placeholder="Numero de cuenta" required pattern="[0-9]+">
+                    <br>
+                    <label for="deposit0">Cuanto desea depositar:</label>
+                    <br>
+                    <input id="deposito" type="text" name="deposito"  maxlength="5" minlength="1" placeholder="cantidad a depositar" required pattern="[0-9]+" >
+                    <br>
+                    <label for="motivo">Motivo de deposito:</label>
+                    <br>
+                    <input id="motivo" type="text" name="motivo"  placeholder="Motivo de deposito" required>
+                    <br>
+                    <p>Su deposito se realiza inmediatamente a su cuenta</p>
+                </div>
+                <br>
+                <input id="realizardeposito" type="submit" value="realizar deposito" onclick="">
+                <a href="usuario.html">Regresar a la paguina anterior</a>
+            </div>   
+        </div>
+    </form>
+    
+</body>
+</html>
