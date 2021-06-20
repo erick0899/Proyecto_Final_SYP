@@ -125,7 +125,7 @@
 
                             <div class="mt-auto cards-thin-btn"><button class="btn btn-primary btn-secondary"
                                     id="card_emprendedores"
-                                    onclick="location.href='#'"
+                                    onclick="location.href='usuario.html'"
                                     type="button">&nbsp;Conoce más&nbsp;</button></div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
 
                             <div class="mt-auto cards-thin-btn"><button class="btn btn-primary btn-secondary"
                                     id="card_wompi"
-                                    onclick="location.href='#'"
+                                    onclick="location.href='usuario.html'"
                                     type="button">&nbsp;Conoce más&nbsp;</button></div>
                         </div>
                     </div>
