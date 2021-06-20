@@ -38,6 +38,7 @@
 
                     <div class="d-grid">
                         <button type="submit" class="btn mb-5" >Iniciar seccion</button>
+                        <a href="registro.html">Registrarse</a>
                     </div>
 
                 </form>
